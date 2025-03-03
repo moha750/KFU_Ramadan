@@ -71,7 +71,7 @@ color: #462461;
 font-family: m;
 }
 
-#adeabTeam {
+.adeabTeam {
 width:100%;
 height:40px;
 text-align: center;
@@ -219,7 +219,7 @@ background-color: #0051B2;
  }
  .input-text{
      position:relative;
-     margin-top:25px;
+     margin-top:35px;
  }
 
  .radio-text{
@@ -280,7 +280,6 @@ background-color: #0051B2;
   font-size:13px;
   border-radius:5px;
   margin-top: 10px;
-  margin-bottom: 10px;
   text-align: right;
   color: #462461;
   font-family: m;
@@ -1109,3 +1108,59 @@ input[type="color"] {
 .swal2-html-container, .swal2-title {
   text-align: center !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swal2-popup {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+
+.swal2-title {
+  color: #009345 !important;
+  font-family: 'bb'; /* الخط المستخدم في مشروعك */
+  font-size: 26px !important;
+}
+
+.swal2-confirm {
+  background: linear-gradient(45deg, #217d80 0%, #7467a5 90%) !important;
+  color: white !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important; 
+  font-family: 'bb'!important;
+  font-size: 16px !important;
+  width: 45vw;
+}
+
+.swal2-content {
+  font-family: 'bb' !important;
+  font-size: 18px;
+  color: #98c93c !important;
+  text-align: center;
+}
+
+
+.custom-swal-title {
+  font-size: 24px; /* حجم عنوان رسالة الخطأ */
+  color: #D32F2F;  /* لون العنوان */
+}
+
+.custom-swal-text {
+  font-size: 18px; /* حجم نص رسالة الخطأ */
+  color: #FF5722;  /* لون نص رسالة الخطأ */
+}
+
+.custom-swal-popup {
+  width: 400px;  /* حجم النافذة */
+}
+
